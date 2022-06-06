@@ -1,0 +1,11 @@
+﻿{
+  "NumberOfInstances": 4,
+  "SoftWare": "Free: Debian, CentOS, CoreOS, Ubuntu",
+  "VMClass": "Regular",
+  "InstanceType": "n1-standard-8",
+  "NumberOfGPUs": 1,
+  "GPUType": "NVIDIA Tesla P100",
+  "LocalSSD": "2x375 Gb",
+  "DatacenterLocation": "Frankfurt (europe-west3)",
+  "CommitedUsage": "1 Year"
+}
