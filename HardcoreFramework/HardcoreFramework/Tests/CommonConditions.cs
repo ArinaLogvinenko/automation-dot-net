@@ -27,7 +27,7 @@ namespace HardcoreFramework
             {
                 var screenFile = ((ITakesScreenshot)Driver.DriverInstance.GetInstance()).GetScreenshot();
                 screenFile
-                    .SaveAsFile($"D:/HardcoreFramework/HardcoreFramework/Target/Screenshots/{DateTime.Now.ToString("dd_MM_yy_HH_mm_ss")}.png", ScreenshotImageFormat.Png);
+                    .SaveAsFile($"D:/automation-dot-net/HardcoreFramework/HardcoreFramework/Target/Screenshots/{DateTime.Now.ToString("dd_MM_yy_HH_mm_ss")}.png", ScreenshotImageFormat.Png);
             }
             Driver.DriverInstance.CloseBrowser();
         }
